@@ -1,0 +1,36 @@
+{
+  "version": "0.9.52",
+  "description": "Self-hosted agentic AI assistant for Discord, Telegram, WhatsApp, Slack & Email. EU AI Act 2026 and GDPR compliant by architecture.",
+  "homepage": "https://corvin-labs.com",
+  "license": "Apache-2.0",
+  "suggest": {
+    "Python": "python"
+  },
+  "installer": {
+    "script": [
+      "python -m pip install --quiet corvinos==0.9.52",
+      "Write-Output 'CorvinOS installed. Run: corvin-serve'"
+    ]
+  },
+  "uninstaller": {
+    "script": "python -m pip uninstall --yes corvinos"
+  },
+  "checkver": {
+    "url": "https://pypi.org/pypi/corvinos/json",
+    "jsonpath": "$.info.version"
+  },
+  "autoupdate": {
+    "installer": {
+      "script": [
+        "python -m pip install --quiet corvinos==$version",
+        "Write-Output 'CorvinOS $version installed. Run: corvin-serve'"
+      ]
+    }
+  },
+  "notes": [
+    "CorvinOS requires Python 3.10+.",
+    "Run 'corvin-serve' to start the web console.",
+    "Run 'corvin-install' for interactive bridge setup (Discord, Telegram, etc.).",
+    "GitHub: https://github.com/CorvinLabs/CorvinOS"
+  ]
+}
