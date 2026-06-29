@@ -1,6 +1,6 @@
 {
   "version": "0.9.52",
-  "description": "Self-hosted agentic AI assistant for Discord, Telegram, WhatsApp, Slack & Email. EU AI Act 2026 and GDPR compliant by architecture.",
+  "description": "Agentic OS with EU AI Act 2026 & GDPR compliance by design. Connects Ollama local models to Discord, Telegram, WhatsApp, Slack and Email \u2014 self-hosted, nothing leaves your server.",
   "homepage": "https://corvin-labs.com",
   "license": "Apache-2.0",
   "suggest": {
