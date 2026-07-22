@@ -1,6 +1,6 @@
 {
-  "version": "0.9.52",
-  "description": "Agentic OS with EU AI Act 2026 & GDPR compliance by design. Connects Ollama local models to Discord, Telegram, WhatsApp, Slack and Email \u2014 self-hosted, nothing leaves your server.",
+  "version": "0.10.58",
+  "description": "Agentic OS with EU AI Act 2026 & GDPR compliance by design. Connects Ollama local models to Discord, Telegram, WhatsApp, Slack and Email — self-hosted, nothing leaves your server.",
   "homepage": "https://corvin-labs.com",
   "license": "Apache-2.0",
   "suggest": {
@@ -8,7 +8,7 @@
   },
   "installer": {
     "script": [
-      "python -m pip install --quiet corvinos==0.9.52",
+      "python -m pip install --quiet corvinos==0.10.58",
       "Write-Output 'CorvinOS installed. Run: corvin-serve'"
     ]
   },
